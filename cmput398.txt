@@ -1,0 +1,8 @@
+course-start: 2022-08-31
+course-cutoff: 2022-12-7
+week-01-intro: pieceofcake2 symmetricorder integerdivision aliennumbers ants amsterdamdistance roompainting 2022-09-19
+week-02-builtins: guessthedatastructure teque addingwords sim 2022-09-26
+week-03-builtins: color virus arithmeticdecoding solitaire 2022-10-3
+week-04-builtins: flowshop narrowartgallery walrusweights 2022-10-11
+week-05-builtins: grid terraces treehouses conquest 2022-10-17
+open-pool: dejavu election turbo buzzwords millionairemadness dartscoring otpor particlecollision letterwheels orchard pebblesolitaire2 messages tight rationalsequence2 bookclub bumped minibattleship quantumsuperposition bundles 2022-12-7

@@ -1,0 +1,10 @@
+course-start: 2022-08-31
+course-cutoff: 2022-12-7
+week-01-intro: pieceofcake2 symmetricorder integerdivision aliennumbers ants amsterdamdistance roompainting 2022-09-19
+week-02-builtins: teque addingwords sim workstations 2022-09-26
+week-03-builtins: virus arithmeticdecoding solitaire freeweights 2022-10-3
+week-04-builtins: narrowartgallery walrusweights maximizingyourpay 2022-10-11
+week-05-builtins: terraces treehouses conquest equivalences 2022-10-17
+open-pool-easy: fantasydraft biggesttriangle forestforthetrees neighborhoodwatch multiplicationgame decisions password magical3 keypad tetration musicalscales pubnite slidecount ticketcompleted wordlewithfriends 2022-12-7
+open-pool-medium: papersnowflakes particlecollision concentration interviewqueue pegsandlegs foldingacube gwensgift drivinglanes simplification flowfree city daceydice modelling palindromic quantumsuperposition explodingkittens homework bundles protectthepollen lootchest snowballfight 2022-12-7
+open-pool-hard: antimatterrain treasurespotting initials delivering stack race rubiksrevenge matchings laneswitching trimmingpolygons dogtrouble teamchange traderoutes 2022-12-7
