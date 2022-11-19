@@ -87,6 +87,7 @@ for a in assignments:
     for prob in problist:
         if prob in userdata:
             local_time = userdata[prob] - timedelta(hours=8, minutes=0)
+            # print(local_time) # Uncomment To Debug
             score = submission_score(deadline, local_time)
         else:
             score = 0
