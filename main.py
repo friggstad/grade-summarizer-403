@@ -1,6 +1,7 @@
 import scraper
 import problems
 import sys
+from datetime import timedelta
 
 # Read command line arguments
 if len(sys.argv) not in {4,5}:
@@ -85,7 +86,8 @@ for a in assignments:
 
     for prob in problist:
         if prob in userdata:
-            score = submission_score(deadline, userdata[prob])
+            local_time = userdata[prob] - timedelta(hours=8, minutes=0)
+            score = submission_score(deadline, local_time)
         else:
             score = 0
 
