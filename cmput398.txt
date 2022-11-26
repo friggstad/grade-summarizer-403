@@ -10,4 +10,5 @@ week-07-builtins: multigram dvaput clockpictures 2022-10-31
 week-08-builtins: countingtriangles junk wrapping 2022-11-14
 week-09-builtins: enlarginghashtables trainsorting 2048 2022-11-21
 week-10-builtins: supercomputer bing justforsidekicks 2022-11-28
+week-11-builtins: pianolessons piano eastereggs 2022-12-5
 open-pool: dejavu election turbo buzzwords millionairemadness dartscoring otpor particlecollision letterwheels orchard pebblesolitaire2 messages tight rationalsequence2 bookclub bumped minibattleship quantumsuperposition bundles baloni 2022-12-7
