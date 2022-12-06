@@ -124,7 +124,7 @@ elif course == "cmput403.txt":
     hard = total_solves["open-pool-hard"]
     open_score = min(min(min(easy,5) + 2*medium, 17) + 3*hard, 20)
 
-    project_final = project_total*0.2
+    project_final = project_total
 
     print("Assignment Overall Grade (out of 60): {0:.02f}".format(assign_final))
     print("Open Pool Grade (out of 20): {0:.02f}".format(open_score))
