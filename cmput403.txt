@@ -1,17 +1,6 @@
-course-start: 2022-08-31
-course-cutoff: 2022-12-7
-week-01-intro: pieceofcake2 symmetricorder integerdivision aliennumbers ants amsterdamdistance roompainting 2022-09-19
-week-02-builtins: teque addingwords sim workstations 2022-09-26
-week-03-builtins: virus arithmeticdecoding solitaire freeweights 2022-10-3
-week-04-builtins: narrowartgallery walrusweights maximizingyourpay 2022-10-11
-week-05-builtins: terraces treehouses conquest equivalences 2022-10-17
-week-06-builtins: bobby raffle perica tomjerry 2022-10-24
-week-07-builtins: dvaput clockpictures typo 2022-10-31
-week-08-builtins: junk wrapping colouringbook 2022-11-14
-week-09-builtins: candydistribution farey eveningout2 2022-11-21
-week-10-builtins: bing justforsidekicks listentoyourboss 2022-11-28
-week-11-builtins: piano eastereggs openpitmining 2022-12-8
-week-12-builtins: cheeseifyouplease kinversions molecules 2022-12-8
-open-pool-easy: fantasydraft biggesttriangle forestforthetrees neighborhoodwatch multiplicationgame decisions password magical3 keypad tetration musicalscales pubnite slidecount ticketcompleted wordlewithfriends 2022-12-7
-open-pool-medium: papersnowflakes particlecollision concentration interviewqueue pegsandlegs foldingacube gwensgift drivinglanes simplification flowfree city daceydice modelling palindromic quantumsuperposition explodingkittens homework bundles protectthepollen lootchest snowballfight 2022-12-7
-open-pool-hard: antimatterrain treasurespotting initials delivering stack race rubiksrevenge matchings laneswitching trimmingpolygons dogtrouble teamchange traderoutes 2022-12-7
+course-start: 2023-08-31
+course-cutoff: 2023-12-08
+week-01-intro: mirror pyramids amsterdamdistance integerdivision pieceofcake2 klockan2 andrewant 2023-09-18
+open-pool-easy: andrewant 2023-12-08
+open-pool-medium: andrewant 2023-12-08
+open-pool-hard: andrewant 2023-12-08

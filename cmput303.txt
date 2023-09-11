@@ -1,0 +1,4 @@
+course-start: 2023-08-31
+course-cutoff: 2023-12-08
+week-01-intro: mirror pyramids amsterdamdistance integerdivision pieceofcake2 klockan2 hindex 2023-09-18
+open-pool: mirror  2023-12-08
