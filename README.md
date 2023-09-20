@@ -45,7 +45,4 @@ You can see this by logging in to Kattis, clicking on "Profile Settings" in the 
 Your Kattis password (it will not be saved anywhere). Put quotes around it (may not be necessary unless you have certain characters like a slash).
 
 * \<coursefile\>:
-One of cmput398.txt or cmput403.txt, depending on which version of the course you are registered in.
-
-* \<project-grade\> OPTIONAL:
-Only for 403 students. Given as a score between 0.0 and 20.0. If not provided, a value of 0.0 will be used by default.
+One of cmput303.txt or cmput403.txt, depending on which version of the course you are registered in.
