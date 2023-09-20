@@ -22,7 +22,7 @@ It seems for some the submission time is reported in Sweden Time (Kattis home) a
 ## Requirements
 
 Required nonstandard libraries:
-* bs4
+* bs4 (Beautiful Soup 4)
 * requests
 
 ### Usage
