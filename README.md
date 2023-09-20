@@ -1,22 +1,25 @@
-# CMPUT 398/403 Grade Summarizer
+# CMPUT 303/403 Grade Summarizer
 
 Produces a grade summary for your progress so far.
 
-Developed by Ian DeHaan and Zac Friggstad.
+Developed by Ian DeHaan and Zac Friggstad, curated by TAs.
 
 ## STILL IN THE TESTING PHASE!
 Please report any issues to the course instructor by email.
 
 ## Features
-The reporter will report the status of all problems from the weekly problem sets using the message ACCEPTED, ACCEPTED (LATE), or UNSOLVED. It will only report the ACCEPTED problems from the open pools to keep the clutter down.
+The reporter will report the status of all problems from the weekly problem sets and open pools using the message ACCEPTED, ACCEPTED (LATE), or UNSOLVED. It will only report the ACCEPTED problems from the open pools to keep the clutter down.
 
-The reporter does *not* account for:
-* Missing headers
-* Any accommodations (i.e. extensions for "excused absences" reasons)
+The reporter currently does *not* account for:
+* Missing headers (planned for a future version)
+* Any accommodations (e.g. extensions for "excused absences")
 
-It will also never scrape your project score (for 403 students) since that will only appear on eClass. You will have to enter it manually.
+This does not report project scores or seminar scores.
 
-## Instructions for Running
+## Known issue!
+It seems for some the submission time is reported in Sweden Time (Kattis home) and for others it is in Mountain Time. So if you see problems that are reported LATE but you know you solved them in time, it may be for this reason. This tool is unofficial and is only to help you track your progress in the course, we will ensure the final grades that are submitted are based on correct submission times. A future version of the tool will accept another command-line parameter to correct the reporting if the times seem off.
+
+## Requirements
 
 Required nonstandard libraries:
 * bs4
@@ -24,15 +27,15 @@ Required nonstandard libraries:
 
 ### Usage
 
-    python3 main.py <kattis-username> "<password>" <coursefile> [<project-score>]
+    python3 main.py <kattis-username> "<password>" <coursefile>
 
 ### Examples
 
-    python3 main.py smith abc123 c398.txt
+    python3 main.py smith abc123 cmput303.txt
 
 or
 
-    python3 main.py smith abc123 c403.txt 18.5
+    python3 main.py smith abc123 cmput303.txt
 
 ### Parameter Explanation
 * \<kattis-username\>:
