@@ -1,12 +1,12 @@
-from bs4 import BeautifulSoup
-import requests
 import datetime
-import os
-import json
 
+import bs4
+import requests
+from bs4 import BeautifulSoup
 
 _HEADERS = {'User-Agent': 'kattis-scraper'}
 loginurl = "https://open.kattis.com/login"
+
 
 def login(s, login_url, username, password=None, token=None):
     """Log in to Kattis.
@@ -21,6 +21,7 @@ def login(s, login_url, username, password=None, token=None):
         login_args['token'] = token
 
     return s.post(login_url, data=login_args, headers=_HEADERS)
+
 
 def getSolvedProblems(session, user, course_start):
     current_day = datetime.date.today()
@@ -53,9 +54,11 @@ def getSolvedProblems(session, user, course_start):
 
             # there is probably a better way to do this
             for element in problem_title_td:
+                # can cause an error if you have previous entries on ualberta.kattis
+                # normally not a problem for students taking the course
+                if element == bs4.NavigableString(' / '):
+                    continue
                 problem_id = element["href"].split("/")[-1]
-
-            # problem_title = problem_title_td.find("a").string
 
             time_formatted = problem.find("td", {"data-type": "time"}).string.strip()
             try:
@@ -94,6 +97,7 @@ def getSolvedProblems(session, user, course_start):
             break
 
     return out
+
 
 def getAllSolvedProblems(username, password, course_start):
     # IMPORTANT: This won't check for recency of data, so make sure to delete
