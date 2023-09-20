@@ -27,7 +27,7 @@ Required nonstandard libraries:
 
 ### Usage
 
-    python3 main.py <kattis-username> "<password>" <coursefile>
+    python3 main.py <kattis-username> "<password>" <coursefile> [<seminar-total>] [<project-total>]
 
 ### Examples
 
@@ -35,7 +35,7 @@ Required nonstandard libraries:
 
 or
 
-    python3 main.py smith abc123 cmput303.txt
+    python3 main.py smith abc123 cmput403.txt 8 13.5
 
 ### Parameter Explanation
 * \<kattis-username\>:
@@ -46,3 +46,9 @@ Your Kattis password (it will not be saved anywhere). Put quotes around it (may 
 
 * \<coursefile\>:
 One of cmput303.txt or cmput403.txt, depending on which version of the course you are registered in.
+
+* \<seminar-total\>:
+Your total marks (out of 10) for the seminars. This is an optional parameter for CMPUT 403 students. It is not scraped.
+
+* \<project-total\>:
+Your total marks (out of 15) for the project. This is an optional parameter for CMPUT 403 students. It is not scraped. To use this optional parameter, you **must** have provided the seminar total option as well.
