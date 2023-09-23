@@ -1,4 +1,4 @@
-# CMPUT 398/403 Grade Summarizer
+# CMPUT 303/403 Grade Summarizer
 
 Produces a grade summary for your progress so far.
 
