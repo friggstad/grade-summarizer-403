@@ -3,4 +3,5 @@ course-cutoff: 2023-12-08
 week-01-intro: mirror pyramids amsterdamdistance integerdivision pieceofcake2 klockan2 hindex 2023-09-18
 week-02-data-structures-binary-search: pairingsocks teque addingwords prettygoodcuberoot 2023-09-25
 week-03-brute-force-and-greedy: solitaire natjecanje color 2023-10-02
+week-04-dynamic-programming: favourable variedamusements hammingellipses flowshop 2023-10-10
 open-pool: dejavu election turbo letterwheels password millionairemadness otpor interviewqueue orchard pebblesolitaire2 messages tight particlecollision buzzwords playingtheslots bookclub bumped minibattleship quantumsuperposition bundles multtable   2023-12-08
