@@ -2,8 +2,9 @@ course-start: 2023-08-31
 course-cutoff: 2023-12-08
 week-01-intro: mirror pyramids amsterdamdistance integerdivision pieceofcake2 klockan2 andrewant 2023-09-18
 week-02-data-structures-binary-search: pairingsocks teque addingwords svada 2023-09-25
-week-03-brute-force-and-greedy: solitaire natjecanje virus 2023-10-02
+week-03-brute-force-and-greedy: solitaire natjecanje virus 2023-10-03
 week-04-dynamic-programming: favourable variedamusements hammingellipses maximizingyourpay 2023-10-10
+week-05-graph-algorithms: brexit conquest naturereserve equivalences 2023-10-16 
 open-pool-easy: neighborhoodwatch checkmateinone magical3 multiplicaitongame wordlewithfriends decisions forestforthetrees ticketcompleted thesaurus keypad biggesttriangle pubnite slidecount 2023-12-08
 open-pool-medium: rsamistake concentration homework interviewqueue snowballfight pegsandlegs foldingacube gwensgift simplification papersnowflakes maximumrent flowfree city daceydice particlecollision modelling palindromic explodingkittens bundles lootchest molecules figurinefigures 2023-12-08
 open-pool-hard: initials solutionpollution teamchange laneswitching stack rubiksrevenge centralstring traderoutes delivering antimatterrain matchings trimmingpolygons dogtrouble appleorchard permutationcfg specialcycle cookiecutter2 anothercoinweighingpuzzle snowninjas thekingsguards kcolouring bomas triangularlogs treecanopygraphs reset failfast whowatchesthewatchmen cram atreeandtwoedges 2023-12-08
