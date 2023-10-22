@@ -6,4 +6,5 @@ week-03-brute-force-and-greedy: solitaire natjecanje color 2023-10-03
 week-04-dynamic-programming: favourable variedamusements hammingellipses flowshop 2023-10-10
 week-05-graph-algorithms: brexit conquest naturereserve moneymatters 2023-10-16
 week-06-combinatorics-probability: perica explosion 2naire dunglish 2023-10-23
+week-07-string-algorithms: burrowswheeler clockpictures longestcommonsubstring 2023-10-30
 open-pool: dejavu election turbo letterwheels password millionairemadness otpor interviewqueue orchard pebblesolitaire2 messages tight particlecollision buzzwords playingtheslots bookclub bumped minibattleship quantumsuperposition bundles multtable   2023-12-08
