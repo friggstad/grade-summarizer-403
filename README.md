@@ -49,3 +49,7 @@ Only for 403 students. Given as a score between 0.0 and 10.0. If not provided, a
 
 * \<project-score\> OPTIONAL:
 Only for 403 students. Given as a score between 0.0 and 15.0. If not provided, a value of 0.0 will be used by default.
+
+### Known Issues
+* Sometimes reports a problem as "LATE" for problems submitted close to the deadline.
+  * SOLUTION: Go to your Kattis profile and change your preferred timezone to "America/Edmonton". You might also have to switch to a different timezone first, then switch back to Edmonton time.
