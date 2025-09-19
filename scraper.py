@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 _HEADERS = {'User-Agent': 'kattis-scraper'}
-loginurl = "https://open.kattis.com/login"
+loginurl = "https://open.kattis.com/login/email"
 
 
 def login(s, login_url, username, password=None, token=None):
@@ -14,13 +14,22 @@ def login(s, login_url, username, password=None, token=None):
     Returns a requests.
     Response with cookies needed to be able to submit.
     """
-    login_args = {'user': username, 'script': 'true'}
+    login_soup = BeautifulSoup(s.get(login_url).text, 'html.parser')
+    csrf = login_soup.find("input", {"name": "csrf_token"})["value"]
+
+    login_args = {'user': username, 'csrf_token': csrf, 'script': 'true'}
     if password:
         login_args['password'] = password
     if token:
         login_args['token'] = token
 
-    return s.post(login_url, data=login_args, headers=_HEADERS)
+    resp = s.post(login_url, data=login_args, headers=_HEADERS)
+    if resp.status_code != 200 or resp.url == login_url:
+        print("Couldn't log you in. Are you sure you're using the right username/password?")
+        quit()
+    print("Successfully logged in")
+
+    return resp
 
 
 def getSolvedProblems(session, user, course_start):
@@ -103,11 +112,7 @@ def getAllSolvedProblems(username, password, course_start):
     # IMPORTANT: This won't check for recency of data, so make sure to delete
     # cache if you previously ran this before the end of the course.
     session = requests.Session()
-    if login(session, loginurl, username, password).text != "Login successful":
-        print("Couldn't log you in. Are you sure you're using the right username/password?")
-        quit()
-
-    print("successfully logged in")
+    login(session, loginurl, username, password)
     print("retrieving submissions...")
 
     solved = getSolvedProblems(session, username, course_start)
