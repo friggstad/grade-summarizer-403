@@ -57,3 +57,4 @@ Only for 403 students. Given as a score between 0.0 and 15.0. If not provided, a
 ### Known Issues
 * Sometimes reports a problem as "LATE" for problems submitted close to the deadline.
   * SOLUTION: Go to your Kattis profile and change your preferred timezone to "America/Edmonton". You might also have to switch to a different timezone first, then switch back to Edmonton time.
+We guarantee your final grade will be calculated with the correct submission times. Again, this is an unofficial tool for you to use.
