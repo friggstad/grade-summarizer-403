@@ -1,6 +1,6 @@
 # CMPUT 303/403 Grade Summarizer
 
-Produces a grade summary for your progress so far.
+Produces an unofficial grade summary for your progress so far.
 
 Developed by Ian DeHaan and Zac Friggstad.
 
@@ -10,11 +10,15 @@ Please report any issues to the course instructor by email.
 ## Features
 The reporter will report the status of all problems from the weekly problem sets using the message ACCEPTED, ACCEPTED (LATE), or UNSOLVED. It will only report the ACCEPTED problems from the open pools to keep the clutter down.
 
-The reporter does *not* account for:
-* Missing headers
-* Any accommodations (i.e. extensions for "excused absences" reasons)
+## IMPORTANT: Differences between this unofficial tool and your final grade
 
-It will also never scrape your project score (for 403 students) since that will only appear on eClass. You will have to enter it manually.
+This unofficial tool does not look at the code in your submissions, so it reports your score assuming headers are there. It is your responsibility to ensure the header is in your code!
+
+It also does not take into account any accommodations you might have received.
+
+It scrapes all of your ualberta.kattis.com submissions. If you were able to submit to a problem outside of the "contest" link for that assignment (e.g. directly to ualberta.kattis.com/problems/andrewant instead of the link from the Weekly Assignment 1 page) then this tool will count it as submitted even though the final grade you receive only looks at the submissions made through the assignment page.
+
+Finally, it does not "scrape" your project score since that will only appear on Canvas nor does it scrape your seminar score since it does not know about the teams that were formed. You will have to enter these manually into the command line arguments if you want them to factor in the reported grade summary.
 
 ## Instructions for Running
 
