@@ -3,4 +3,5 @@ course-cutoff: 2025-12-08
 week-01-intro: mirror amsterdamdistance birthdaycandles hindex andrewant magicalrunes 2025-09-15
 week-02-data-structures-binary-search: bootstrappingnumber lyklagangriti addingwords knigsoftheforest 2025-09-22
 week-03-brute-force-and-greedy: color virus natjecanje 2025-09-29
+week-04-dynamic-programming: favourable skolvagen hammingellipses everythingisanail 2025-10-06
 open-pool: buzzwords multtable interviewqueue bundles bumped election orchard messages quantumsuperposition playingtheslots baloni password otpor millionairemadness subseqhard turbo election pebblesolitaire2 particlecollision segmentdistance letterwheels bookclub 2025-12-08

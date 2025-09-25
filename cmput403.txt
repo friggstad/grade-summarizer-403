@@ -2,7 +2,8 @@ course-start: 2025-08-31
 course-cutoff: 2025-12-08
 week-01-intro: mirror amsterdamdistance birthdaycandles hindex andrewant magicalrunes 2025-09-15
 week-02-data-structures-binary-search: lyklagangriti addingwords knigsoftheforest freighttrain 2025-09-22
-week-03-brute-force-and-greedy: virus natjecanje threedice 2025-12-08
+week-03-brute-force-and-greedy: virus natjecanje threedice 2025-09-29
+week-04-dynamic-programming: skolvagen hammingellipses everythingisanail proteins 2025-10-06
 open-pool-easy: biggesttriangle forestforthetrees multiplicaitongame decisions magical3 musicalscales neighborhoodwatch pubnite slidecount ticketcompleted wordlewithfriends 2025-12-08
 open-pool-medium: particlecollision lootchest pegsandlegs foldingacube maximumrent figurinefigures flowfree molecules city papersnowflakes modelling palindromic explodingkittens concentration rsamistake homework simplification bundles daceydice interviewqueue snowballfight 2025-12-08
 open-pool-hard: dogtrouble delivering centralstring traderoutes laneswitching antimatterrain solutionpollution initials matchings rubiksrevenge teamchange gopherresidence trimmingpolygons snowninjas treecanopygraphs thekingsguards appleorchard permutationcfg specialcycle anothercoinweighingpuzzle bomas triangularlogs reset cookiecutter2 failfast whowatchesthewatchmen cram atreeandtwoedges kcolouring 2025-12-08
