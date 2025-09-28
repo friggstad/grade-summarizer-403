@@ -35,7 +35,7 @@ def login(s, login_url, username, password=None, token=None):
 def getSolvedProblems(session, user, course_start):
     current_day = datetime.date.today()
 
-    url = "https://ualberta.kattis.com/users/" + user
+    url = f"https://ualberta.kattis.com/users/{user}"
 
     print("scraping", url)
     r = session.get(url)
@@ -85,19 +85,19 @@ def getSolvedProblems(session, user, course_start):
             out[problem_id] = min(out[problem_id], date_time)
 
         # determine if there is a "next" page
-        buttons = soup.findAll('a', {'id': 'problem_list_previous'})
+        buttons = soup.findAll('button', {'id': 'problem_list_previous'})
         next_url = None
         for button in buttons:
-            if button.text == "Next":
+            if button.text.strip() == "Next":
                 # lazy way to check if "href" is in the button
                 # (if not, then this is the unclickable greyed out button)
                 try:
-                    next_url = button["href"]
+                    next_url = f"?page={button["data-page"]}"
                 except:
                     pass
 
         if next_url:
-            link = url + "/" + next_url
+            link = f"{url}/{next_url}"
 
             print("scraping", link)
             r = session.get(link)
