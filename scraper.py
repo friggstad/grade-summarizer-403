@@ -92,7 +92,7 @@ def getSolvedProblems(session, user, course_start):
                 # lazy way to check if "href" is in the button
                 # (if not, then this is the unclickable greyed out button)
                 try:
-                    next_url = f"?page={button["data-page"]}"
+                    next_url = f"?page={button['data-page']}"
                 except:
                     pass
 
