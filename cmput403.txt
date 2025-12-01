@@ -3,6 +3,7 @@ course-cutoff: 2025-12-08
 week-01-intro: mirror amsterdamdistance birthdaycandles hindex andrewant magicalrunes 2025-09-15
 week-02-data-structures-binary-search: lyklagangriti addingwords knigsoftheforest freighttrain 2025-09-22
 week-03-brute-force-and-greedy: virus natjecanje threedice 2025-09-29
+week-04-dynamic-programming: skolvagen hammingellipses everythingisanail proteins 2025-10-06
 week-05-graph-algorithms: brexit conquest landline pieceittogether 2025-10-20
 week-06-combinatorics-probability: perica raffle gigcombinatorics linesofx 2025-10-27
 week-07-string-algorithms: burrowswheeler clockpictures typo 2025-11-03
