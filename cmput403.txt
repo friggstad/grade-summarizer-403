@@ -11,6 +11,6 @@ week-08-geometry: countingtriangles wrapping colouringbook 2025-11-17
 week-09-number-theory: eveningout2 candydistribution diagonalcut farey 2025-11-24
 week-10-external-ds: bing boxes justforsidekicks 2025-12-01
 week-11-matching-flow: eastereggs piano landscaping 2025-12-08
-open-pool-easy: biggesttriangle forestforthetrees multiplicaitongame decisions magical3 musicalscales neighborhoodwatch pubnite slidecount ticketcompleted wordlewithfriends 2025-12-08
+open-pool-easy: biggesttriangle forestforthetrees multtable decisions magical3 musicalscales neighborhoodwatch pubnite slidecount ticketcompleted wordlewithfriends 2025-12-08
 open-pool-medium: particlecollision lootchest pegsandlegs foldingacube maximumrent figurinefigures flowfree molecules city papersnowflakes modelling palindromic explodingkittens concentration rsamistake homework simplification bundles daceydice interviewqueue snowballfight 2025-12-08
 open-pool-hard: dogtrouble delivering centralstring traderoutes laneswitching antimatterrain solutionpollution initials matchings rubiksrevenge teamchange gopherresidence trimmingpolygons snowninjas treecanopygraphs thekingsguards appleorchard permutationcfg specialcycle anothercoinweighingpuzzle bomas triangularlogs reset cookiecutter2 failfast whowatchesthewatchmen cram atreeandtwoedges kcolouring 2025-12-08
